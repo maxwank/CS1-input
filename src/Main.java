@@ -10,6 +10,33 @@ public class Main {
         wait(1500);
         clear();
         question1();
+        wait(1500);
+        clear();
+        question2();
+        wait(1500);
+        clear();
+        question3();
+        wait(1500);
+        clear();
+        question4();
+        wait(1500);
+        clear();
+        question5();
+        wait(1500);
+        clear();
+        question6();
+        wait(1500);
+        clear();
+        question7();
+        wait(1500);
+        clear();
+        question8();
+        wait(1500);
+        clear();
+        question9();
+        wait(1500);
+        clear();
+        question10();
     }
     public static void clear() {
 
