@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
 
     public static Scanner sc = new Scanner(System.in);
+    public static int p = 10;
 
     public static void main(String[] args) {
         clear();
@@ -37,6 +38,9 @@ public class Main {
         wait(1500);
         clear();
         question10();
+        wait(1500);
+        clear();
+        outro();
     }
     public static void clear() {
 
@@ -65,6 +69,7 @@ public class Main {
             wait(500);
             clear();
         } else {
+            p = p - 1;
             wait(100);
             clear();
             System.out.println("Incorrect...");
@@ -83,6 +88,7 @@ public class Main {
             wait(500);
             clear();
         } else {
+            p = p - 1;
             wait(100);
             clear();
             System.out.println("Incorrect...");
@@ -101,6 +107,7 @@ public class Main {
             wait(500);
             clear();
         } else {
+            p = p - 1;
             wait(100);
             clear();
             System.out.println("Incorrect...");
@@ -119,6 +126,7 @@ public class Main {
             wait(500);
             clear();
         } else {
+            p = p - 1;
             wait(100);
             clear();
             System.out.println("Incorrect...");
@@ -137,6 +145,7 @@ public class Main {
             wait(500);
             clear();
         } else {
+            p = p - 1;
             wait(100);
             clear();
             System.out.println("Incorrect...");
@@ -155,6 +164,7 @@ public class Main {
             wait(500);
             clear();
         } else {
+            p = p - 1;
             wait(100);
             clear();
             System.out.println("Incorrect...");
@@ -173,6 +183,7 @@ public class Main {
             wait(500);
             clear();
         } else {
+            p = p - 1;
             wait(100);
             clear();
             System.out.println("Incorrect...");
@@ -191,6 +202,7 @@ public class Main {
             wait(500);
             clear();
         } else {
+            p = p - 1;
             wait(100);
             clear();
             System.out.println("Incorrect...");
@@ -209,6 +221,7 @@ public class Main {
             wait(500);
             clear();
         } else {
+            p = p - 1;
             wait(100);
             clear();
             System.out.println("Incorrect...");
@@ -227,6 +240,7 @@ public class Main {
             wait(500);
             clear();
         } else {
+            p = p - 1;
             wait(100);
             clear();
             System.out.println("Incorrect...");
@@ -234,5 +248,15 @@ public class Main {
             clear();
             question10();
         }
+    }
+    public static void outro(){
+        if (p == 10){
+            clear();
+            System.out.println("100%! Nice job!");
+        } else {
+            clear();
+            System.out.println(p+"/10 were correct first try. Try again!");
+        }
+
     }
 }
