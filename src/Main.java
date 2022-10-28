@@ -47,9 +47,9 @@ public class Main {
         }
     }
     public static void question2(){
-        System.out.println("What is 1+1?");
+        System.out.println("What is 10*10?");
         int answer=sc.nextInt();
-        if (answer == 2){
+        if (answer == 100){
             wait(100);
             clear();
             System.out.print("Correct!");
@@ -61,13 +61,13 @@ public class Main {
             System.out.println("Incorrect...");
             wait(500);
             clear();
-            question1();
+            question2();
         }
     }
     public static void question3(){
-        System.out.println("What is 1+1?");
+        System.out.println("What is 100-57?");
         int answer=sc.nextInt();
-        if (answer == 2){
+        if (answer == 43){
             wait(100);
             clear();
             System.out.print("Correct!");
@@ -79,13 +79,13 @@ public class Main {
             System.out.println("Incorrect...");
             wait(500);
             clear();
-            question1();
+            question3();
         }
     }
     public static void question4(){
-        System.out.println("What is 1+1?");
+        System.out.println("What is 10-15?");
         int answer=sc.nextInt();
-        if (answer == 2){
+        if (answer == -5){
             wait(100);
             clear();
             System.out.print("Correct!");
@@ -97,13 +97,13 @@ public class Main {
             System.out.println("Incorrect...");
             wait(500);
             clear();
-            question1();
+            question4();
         }
     }
     public static void question5(){
-        System.out.println("What is 1+1?");
+        System.out.println("What is 9*-5?");
         int answer=sc.nextInt();
-        if (answer == 2){
+        if (answer == -45){
             wait(100);
             clear();
             System.out.print("Correct!");
@@ -115,13 +115,13 @@ public class Main {
             System.out.println("Incorrect...");
             wait(500);
             clear();
-            question1();
+            question5();
         }
     }
     public static void question6(){
-        System.out.println("What is 1+1?");
+        System.out.println("What is -9*-9?");
         int answer=sc.nextInt();
-        if (answer == 2){
+        if (answer == 81){
             wait(100);
             clear();
             System.out.print("Correct!");
@@ -133,13 +133,13 @@ public class Main {
             System.out.println("Incorrect...");
             wait(500);
             clear();
-            question1();
+            question6();
         }
     }
     public static void question7(){
-        System.out.println("What is 1+1?");
-        int answer=sc.nextInt();
-        if (answer == 2){
+        System.out.println("What is 0.5+0.75?");
+        float answer=sc.nextFloat();
+        if (answer == 1.25){
             wait(100);
             clear();
             System.out.print("Correct!");
@@ -151,13 +151,13 @@ public class Main {
             System.out.println("Incorrect...");
             wait(500);
             clear();
-            question1();
+            question7();
         }
     }
     public static void question8(){
-        System.out.println("What is 1+1?");
-        int answer=sc.nextInt();
-        if (answer == 2){
+        System.out.println("What is 5*0.5?");
+        float answer=sc.nextFloat();
+        if (answer == 2.5){
             wait(100);
             clear();
             System.out.print("Correct!");
@@ -169,13 +169,13 @@ public class Main {
             System.out.println("Incorrect...");
             wait(500);
             clear();
-            question1();
+            question8();
         }
     }
     public static void question9(){
-        System.out.println("What is 1+1?");
+        System.out.println("What is 10+8*7?");
         int answer=sc.nextInt();
-        if (answer == 2){
+        if (answer == 66){
             wait(100);
             clear();
             System.out.print("Correct!");
@@ -187,13 +187,13 @@ public class Main {
             System.out.println("Incorrect...");
             wait(500);
             clear();
-            question1();
+            question9();
         }
     }
     public static void question10(){
-        System.out.println("What is 1+1?");
+        System.out.println("What is (10*10)/2+15)?");
         int answer=sc.nextInt();
-        if (answer == 2){
+        if (answer == 65){
             wait(100);
             clear();
             System.out.print("Correct!");
@@ -205,7 +205,7 @@ public class Main {
             System.out.println("Incorrect...");
             wait(500);
             clear();
-            question1();
+            question10();
         }
     }
 }
